@@ -19,7 +19,9 @@ body {
     overflow: hidden;
     background: skyblue;
     box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.7s;
 }
+
 
 .box:before {
     content: 'top running collections';
@@ -91,4 +93,6 @@ ul li a {
 
 /** Transition effects **/
 
-/* TODO */
+.box:hover{
+    padding-left: 100px;
+}
