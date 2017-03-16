@@ -45,6 +45,7 @@ body {
     margin: 0;
     padding-left: 20px;
     background: transparent;
+    transition: all 0.45s;
 }
 
 .caption {
@@ -89,6 +90,7 @@ ul li a {
     color: #000;
     text-decoration: none;
     padding-left: 0;
+    transition: all 0.3s;
 }
 
 
@@ -99,4 +101,11 @@ ul li a {
 }
 .box:hover::before{
     right: -300px;
+}
+.menu:hover{
+    left: 0;
+}
+ul li a:hover{
+    padding-left: 5px;
+    font-weight: bold;
 }
